@@ -12,7 +12,7 @@ BlockerKitSDK distributes BlockerKit as a binary Swift Package. This repository 
 Add this package in Xcode:
 
 ```swift
-.package(url: "https://github.com/hachiwareapps/BlockerKitSDK.git", branch: "main")
+.package(url: "https://github.com/hachiwareapps/BlockerKitSDK.git", from: "0.1.0")
 ```
 
 Link the `BlockerKit` product from your app target, then import the module:
@@ -34,8 +34,8 @@ configuration.userContentController.addBlockerKitUserScripts(from: bundle)
 
 ## Release
 
-- Release tag: `main-858204a3f17e`
+- Release tag: `0.1.0`
 - Source repository: `hachiwareapps/BlockerKit`
-- Source commit: `858204a3f17e4cc044b3aea4f4bd5062fc60c02a`
-- Artifact: [BlockerKit.xcframework.zip](https://github.com/hachiwareapps/BlockerKitSDK/releases/download/main-858204a3f17e/BlockerKit.xcframework.zip)
-- SwiftPM checksum: `75d8d5867fb27787d3d4664e4becdf0fea5a9c47a8322bd24afd89909e96720c`
+- Source commit: `228dff2f2e1d5e9f20d19ff7cab97c89af15cb98`
+- Artifact: [BlockerKit.xcframework.zip](https://github.com/hachiwareapps/BlockerKitSDK/releases/download/0.1.0/BlockerKit.xcframework.zip)
+- SwiftPM checksum: `3e762ddef6afbf064d6f61ac1781c08d866f490fd9dc7e7d4a95a88f4ad30f5c`
