@@ -11,21 +11,13 @@ let package = Package(
         .library(
             name: "BlockerKit",
             targets: ["BlockerKit"]
-        ),
-        .executable(
-            name: "gpl-filter-compiler",
-            targets: ["GPLFilterCompiler"]
         )
     ],
     targets: [
         .binaryTarget(
             name: "BlockerKit",
-            url: "https://github.com/hachiwareapps/BlockerKitSDK/releases/download/0.3.0/BlockerKit.xcframework.zip",
-            checksum: "cc50adfea835c4fe508400188d1307363978c333355ba6f8a523d82a918caaca"
-        ),
-        .executableTarget(
-            name: "GPLFilterCompiler",
-            dependencies: ["BlockerKit"]
+            url: "https://github.com/hachiwareapps/BlockerKitSDK/releases/download/0.4.0/BlockerKit.xcframework.zip",
+            checksum: "3e9492aa2a0b33ae5d1402dcc36b772a1b882df00836c7c80cefc86859ab3dc2"
         )
     ]
 )
