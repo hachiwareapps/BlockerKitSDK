@@ -1,3 +1,5 @@
 .build/
 .swiftpm/
 DerivedData/
+outputs/
+.filter-checkouts/
