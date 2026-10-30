@@ -16,8 +16,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "BlockerKit",
-            url: "https://github.com/hachiwareapps/BlockerKitSDK/releases/download/0.29.0/BlockerKit.xcframework.zip",
-            checksum: "2cce438b28bb7a56a1d48fa9a33dd5c3787fb1b156f358282ad53eff647d3f2d"
+            url: "https://github.com/hachiwareapps/BlockerKitSDK/releases/download/0.30.0/BlockerKit.xcframework.zip",
+            checksum: "1147146f3cd110560c68c54dac8e1e427dd9894d54f504817531edf7df9fcf29"
         )
     ]
 )
